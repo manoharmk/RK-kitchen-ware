@@ -42,7 +42,7 @@ export default function Footer() {
                 Nava Nagar, Bagalkot, Karnataka 587103
               </p>
               <p className="footer__address-line">
-                <strong>Proprietor:</strong> Shrinivas Soragavi
+                <strong>Proprietor:</strong> Shivprasadh Hulyal
               </p>
               <p className="footer__contact-numbers">
                 <strong>Phone / WhatsApp:</strong><br />

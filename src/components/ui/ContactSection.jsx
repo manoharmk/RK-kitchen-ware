@@ -78,11 +78,11 @@ export default function ContactSection() {
             <div className="contact-card owner-card">
               <div className="owner-card__header">
                 <div className="owner-card__avatar">
-                  <span>SS</span>
+                  <span>SH</span>
                 </div>
                 <div>
                   <div className="owner-card__tag">Proprietor &amp; Store Owner</div>
-                  <h3 className="owner-card__name">Shrinivas Soragavi</h3>
+                  <h3 className="owner-card__name">Shivprasadh Hulyal</h3>
                   <p className="owner-card__role">Owner &amp; Manager • RK Kitchenware</p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function ContactSection() {
                 </a>
 
                 <a
-                  href={`https://wa.me/${PRIMARY_PHONE_CLEAN}?text=${encodeURIComponent('Hello Shrinivas ji, I would like to enquire about kitchenware at RK Kitchen Ware.')}`}
+                  href={`https://wa.me/${PRIMARY_PHONE_CLEAN}?text=${encodeURIComponent('Hello Shivprasadh ji, I would like to enquire about kitchenware at RK Kitchen Ware.')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-btn contact-btn--wa"
