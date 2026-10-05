@@ -100,7 +100,7 @@ export default function ContactSection() {
                 </a>
 
                 <a
-                  href={`https://wa.me/${PRIMARY_PHONE_CLEAN}?text=${encodeURIComponent('Hello Shivprasadh ji, I would like to enquire about kitchenware at RK Kitchen Ware.')}`}
+                  href={`https://wa.me/${PRIMARY_PHONE_CLEAN}?text=${encodeURIComponent('Hello Sir, I would like to enquire about kitchenware at RK Kitchen Ware')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-btn contact-btn--wa"
