@@ -4,6 +4,7 @@ import SearchBar from '../components/ui/SearchBar';
 import CategoryFilter from '../components/ui/CategoryFilter';
 import ProductGrid from '../components/product/ProductGrid';
 import ReviewsSection from '../components/ui/ReviewsSection';
+import ContactSection from '../components/ui/ContactSection';
 import { searchProducts, getCategories, getAllProducts } from '../api/productService';
 import { CATEGORIES } from '../data/products';
 
@@ -114,6 +115,9 @@ export default function HomePage() {
 
       {/* ── Reviews ── */}
       <ReviewsSection />
+
+      {/* ── Store Contact & Location ── */}
+      <ContactSection />
     </main>
   );
 }

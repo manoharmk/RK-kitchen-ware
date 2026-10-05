@@ -31,16 +31,34 @@ export default function Footer() {
             </ul>
           </nav>
 
-          {/* Contact */}
-          <div>
-            <div className="footer__heading">Enquiries</div>
-            <ul className="footer__links">
-              <li>
-                <span className="footer__link">
-                  Use the WhatsApp button on any product to send us an enquiry.
-                </span>
-              </li>
-            </ul>
+          {/* Contact & Showroom */}
+          <div className="footer__contact-col">
+            <div className="footer__heading">Visit &amp; Contact</div>
+            <div className="footer__address-block">
+              <p className="footer__address-line">
+                <strong>Showroom Address:</strong><br />
+                Plot No. 32D, Sector No. 04,<br />
+                Behind Bata Showroom, Sector 4,<br />
+                Nava Nagar, Bagalkot, Karnataka 587103
+              </p>
+              <p className="footer__address-line">
+                <strong>Proprietor:</strong> Shrinivas Soragavi
+              </p>
+              <p className="footer__contact-numbers">
+                <strong>Phone / WhatsApp:</strong><br />
+                <a href="tel:917619644958" className="footer__link footer__link--highlight">+91 76196 44958</a>
+                <br />
+                <a href="tel:916362991969" className="footer__link">+91 63629 91969</a>
+              </p>
+              <a
+                href="https://maps.app.goo.gl/J89bsEsQapy2as65A"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__maps-link"
+              >
+                <span>📍</span> View on Google Maps &rarr;
+              </a>
+            </div>
           </div>
         </div>
 
