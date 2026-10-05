@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
-const MAPS_URL = 'https://maps.app.goo.gl/J89bsEsQapy2as65A';
+const MAPS_URL = 'https://www.google.com/maps?q=16.1671087,75.6591015+(R+K+KITCHENWARE)';
+const DIRECTIONS_URL = 'https://www.google.com/maps/dir/?api=1&destination=16.1671087,75.6591015';
 const PRIMARY_PHONE = '+91 76196 44958';
 const PRIMARY_PHONE_CLEAN = '917619644958';
 const SECONDARY_PHONE = '+91 63629 91969';
@@ -250,6 +251,19 @@ export default function ContactSection() {
                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
                   </svg>
                   Open in Google Maps
+                </a>
+
+                <a
+                  href={DIRECTIONS_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="address-btn address-btn--directions"
+                  id="get-directions-btn"
+                >
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                    <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                  </svg>
+                  Directions
                 </a>
 
                 <button

@@ -51,7 +51,7 @@ export default function Footer() {
                 <a href="tel:916362991969" className="footer__link">+91 63629 91969</a>
               </p>
               <a
-                href="https://maps.app.goo.gl/J89bsEsQapy2as65A"
+                href="https://www.google.com/maps?q=16.1671087,75.6591015+(R+K+KITCHENWARE)"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__maps-link"
