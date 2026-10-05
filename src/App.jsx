@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
@@ -36,6 +37,7 @@ export default function App() {
       </Routes>
       <Footer />
       <ScrollToTopButton />
+      <Analytics />
     </BrowserRouter>
   );
 }
